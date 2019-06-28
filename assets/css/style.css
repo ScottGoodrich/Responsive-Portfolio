@@ -1,0 +1,263 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-image: url("../images/dynamic-style.png");
+}
+#header {
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	background-color: #ffffff;
+	overflow: auto;
+	border-bottom: 1.5px solid #dddddd;
+}
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	font-weight: bold;
+    padding: 18px;
+    margin-left: 15px;
+	position: absolute;
+	top: 0px;
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+a {
+	text-decoration: none;
+}
+.navigation {
+	position: absolute;
+    top: 0px;
+    right: 370px;
+	width: 15%;
+	float: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #ffffff;
+	color: #dddddd;
+	padding: 9px;
+	margin-right: 15px;
+}
+a:visited {
+	color: #777777;
+}
+a:hover {
+	color: #4aaaa5;
+}
+a:focus {
+	color: #9feeea;
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 15px;
+	padding-top: 20px;
+	color: #4aaaa5;
+}
+hr {
+	border: 1.5px solid #dddddd;
+	width: 97%;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto
+}
+.IndexMain {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+.BioPic {
+	float: left;
+	top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.ContactMain {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+p {
+	line-height: 2.3;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	color: #777777;
+	top: 0px;
+	padding: 20px;
+}
+nav {
+	position: absolute;
+	line-height: 2.4;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	float: right;
+	padding: 20px;
+}
+.PortMain {
+	margin-top: 100px;
+	width: 100%;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+.container1 {
+	position: relative;
+	color: #ffffff;
+	float: left;
+	margin: 15px;
+}
+.container2 {
+	position: relative;
+	color: #ffffff;
+	float: left;
+	margin: 15px;
+}
+.container3 {
+	position: relative;
+	color: #ffffff;
+	clear: both;
+	float: left;
+	margin: 15px;
+}
+.container4 {
+	position: relative;
+	color: #ffffff;
+	float: left;
+	margin: 15px;
+}
+.container5 {
+	position: relative;
+	color: #ffffff;
+	clear: both;
+    margin: 15px;
+    padding-top: 15px;
+}
+h3 {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 300px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 65%;
+}
+footer {
+	line-height: 2.4;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	width: 100%;
+	padding: 20px;
+	background-color: #777777;
+	border-top: 8px solid #4aaaa5;
+}
+#submit {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 40px;
+    width: 80px;
+    animation-name: SubmitButton;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes SubmitButton {
+    from {background-color: #4aaaa5;}
+    to {background-color: #f08725;}
+}
+form {
+	line-height: 2.0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	padding: 10px;
+}
+.wrapper {
+    width: 1024px;
+    margin: auto;
+}
+@media screen and (max-width: 980px) {
+    .wrapper {
+        width: 968px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 700px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 375px;
+        margin: auto;
+    }
+    #header {
+        position: static;
+        width: 375px;
+    }
+    footer {
+        position: static;
+        width: 375px;
+    }
+}
